@@ -1,0 +1,176 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Abraham} \headerlastnamestyle{Gomez} \\
+	\vspace{2mm}
+	{\faEnvelopeO\ j.abraham.gomez@gmail.com} | {\faMobile\ (562)234-3592} | {\faStreetView\ San Francisco, CA} | {\faGlobe\ https://abebraham.com}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{DevOps Software Developer}
+	{Accenture LLP}
+	{San Francisco, CA}
+	{Oct 2017 – Present}
+	{\begin{cvitems}
+		\item {Implemented the hardware and architecture components of AI robotic arm PoC to be showcased in AWS:ReInvent 2018}
+		\item {Developed a serverless application which maintains user context between chatbot, text message, form submissions, and voice}
+		\item {Guided Clients through design thinking sessions, resulting in a successful 2-month PoC contract with a medical provider}
+		\item {Showcased serverless capabilities to VP of Innovation for a utility company resulting in a successful production contract}
+		\end{cvitems}}
+
+	\cventry
+	{Co-Founder | VP of Growth | https://somostours.com}
+	{Somos Travel LLC}
+	{Bellflower, CA}
+	{Jun 2017 – Present}
+	{\begin{cvitems}
+		\item {Co-founded a tourism company successfully sending over 200+ customers around the world: Israel, Spain, France, and Mexico}
+		\item {Reduce labor hours from 10 hours to 15 minutes by creating an autonomous calling application with a Twilio and Sinatra}
+		\item {Reduced fixed costs by opting out of a brick and mortar location, and by creating reusable marketing material}
+		\end{cvitems}}
+	\cventry
+	{Founder | CEO | https://flagupmail.com}
+	{Flagupmail}
+	{San Francisco, CA}
+	{March 2017 – Present}
+	{\begin{cvitems}
+		\item {Founded Flagupmail to store personal hand-written keepsakes from classrooms for later retrieval (1-5 years)}
+		\item {Created a prelaunch campaign to organically gain users by with the use referral incentives written in Ruby on Rails}
+	\end{cvitems}}
+	\cventry
+	{Product Manager}
+	{University of Southern California}
+	{Los Angeles, CA}
+	{May 2016 – May 2017}
+	{\begin{cvitems}
+		\item {Led and hired dev team through the development of a Chrome Extension, Android Application and Custom Router PoC}
+		\item {Autonomized feedback loop with Stakeholders (USC Board of Directors) by implementing public Kanban and burndown charts}
+		\item {Successfully developed PoC 35\% under budget by focusing bi-weekly MVP development}
+		\end{cvitems}}
+\end{cventries}
+
+\vspace{-3mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Internship
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Internship Experience}
+\begin{cventries}
+	\cventry
+	{Project Manager}
+	{Project iPodia}
+	{Los Angeles, CA}
+	{Oct 2015 – Feb 2016}
+	{\begin{cvitems}
+		\item {Proposed and secured funding for a P2P platform using multiple API’s integrations and Slack messaging platform}
+		\item {Successfully increased classroom engagement from 500 monthly messages to 20,000 monthly messages with 2nd MVP}
+		\item {Initiated agile development with weekly testing reducing anticipated development time by 25\%}
+		\end{cvitems}}
+	\cventry
+	{Space Systems Engineer}
+	{Lockheed Martin}
+	{King of Prussia, PA}
+	{July 2015 – Aug 2015}
+	{\begin{cvitems}
+		\item {Characterized antenna patterns by SNR, efficiency, power, in 2D and 3D polar plots reducing analysis time by 65\%.}
+		\item {Published in-house MatLab RF Analysis tool - saving estimated costs of \$1500 per license for DARPA\textquotesingle{}s TBG program}
+		\end{cvitems}}
+	\cventry
+	{Automated Test Engineer}
+	{St. Jude Medical (Acquired by Abbott)}
+	{Valley View, CA}
+	{Jan 2015 – Jun 2015}
+	{\begin{cvitems}
+		\item {Designed a streamlined manufacturer testing user interface reducing the testing time by 10\% for test fixtures}
+		\item {Decreased time spent finding test equipment by creating an asset tracking system using RFID technology with metrology}
+		\end{cvitems}}
+\end{cventries}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-3mm}
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{BS in Electrical Engineering (GPA: 3.50)}
+	{University of Southern California}
+	{Los Angeles, CA}
+	{Aug 2014 – May 2017}
+	{Became the first undergraduate to lead a project on behalf of the Viterbi School of Engineering Board of Directors (project iPodia)}
+	\cventry
+	{AA in Mathematics and Physics (GPA: 3.73)}
+	{Cerritos Community College}
+	{Norwalk, CA}
+	{Aug 2012 – May 2014}
+	{Awarded Student-Athlete Scholarship (Fall, Spring) for maintaining 3.5 GPA while competing with Water Polo team}
+\end{cventries}
+
+\vspace{-2mm}
+\cvsection{Toolbelt}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		AWS:  & {\skill{ AWS IoT, API Gateway, Lambda, DynamoDB, RDS, Lex, AWS Connect, EC2, S3, CodePipeline, CodeBuild}} \\
+		Software:  & {\skill{ Ruby On Rails, Tailwinds CSS, Angular Material, Angular, Cordova, JavaScript, Python, Ruby}} \\
+		Hardware:  & {\skill{ FreeRTOS, Raspberry Pi, Arduino, Digital Multimeter, Oscilloscope, PWM, PCB Analysis}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\ 
+\end{document}
