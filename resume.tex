@@ -41,7 +41,7 @@
 
 %%% Override a separator for social informations in header(default: ' | ')
 %\headersocialsep[\quad\textbar\quad]
-    \begin{document}
+\begin{document}
     
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Profile
@@ -49,7 +49,7 @@
 \begin{center}
 	\headerfirstnamestyle{Abraham} \headerlastnamestyle{Gomez} \\
 	\vspace{2mm}
-	{\faEnvelopeO\ j.abraham.gomez@gmail.com} | {\faMobile\ (562)234-3592} | {\faStreetView\ San Francisco, CA} | {\faGlobe\ https://abebraham.com}
+	{j.abraham.gomez@gmail.com} | {(562)234-3592} | {San Francisco, CA} | {https://www.abebraham.com}
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -58,19 +58,36 @@
 \cvsection{Work Experience}
 \begin{cventries}
 	\cventry
-	{DevOps Software Developer}
+	{Cloud Software Developer}
 	{Accenture LLP}
 	{San Francisco, CA}
 	{Oct 2017 – Present}
 	{\begin{cvitems}
-		\item {Implemented the hardware and architecture components of AI robotic arm PoC to be showcased in AWS:ReInvent 2018}
-		\item {Developed a serverless application which maintains user context between chatbot, text message, form submissions, and voice}
-		\item {Guided Clients through design thinking sessions, resulting in a successful 2-month PoC contract with a medical provider}
-		\item {Showcased serverless capabilities to VP of Innovation for a utility company resulting in a successful production contract}
+		\item {Working in AWS Accenture partnership (AABG) building Cloud Native proof of concepts for clients}
+		\item {Deployed serverless eCensus microservice for government client surpassing their 3,500 hits/sec within .5\% error requirements}
+		\item{Designed and developed self-learning robotic arm using AWS IoT, AppSync, Alexa and AWS Sagemaker for AWS re:Invent 2018}
+		\item {Architected and developed a serverless omnichannel PoC for utility companies, which resulted in a 2 million dollar contract}
+		\item {Developed in-house AI drink-mixer using AWS IoT, RaspberryPi, and Arduino showcased in over 50 conferences nationally}
 		\end{cvitems}}
-
 	\cventry
-	{Co-Founder | VP of Growth | https://somostours.com}
+	{Product Manager}
+	{University of Southern California}
+	{Los Angeles, CA}
+	{May 2016 – May 2017}
+	{\begin{cvitems}
+		\item {Successfully developed PoC 35\% under budget by implementing a bi-weekly MVP development process}
+		\item {Led and hired dev team through the development of a Chrome Extension, Android Application and pfSense Custom Router PoC}
+		\item {Autonomized feedback loop with Stakeholders (USC Board of Directors) by implementing public Kanban and burndown charts}
+		\end{cvitems}}
+\end{cventries}
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Personal Projects}
+\begin{cventries}
+	\cventry
+	{Co-Founder | VP of Growth | https://www.somostours.com}
 	{Somos Travel LLC}
 	{Bellflower, CA}
 	{Jun 2017 – Present}
@@ -80,7 +97,7 @@
 		\item {Reduced fixed costs by opting out of a brick and mortar location, and by creating reusable marketing material}
 		\end{cvitems}}
 	\cventry
-	{Founder | CEO | https://flagupmail.com}
+	{Founder | CEO | https://www.flagupmail.com}
 	{Flagupmail}
 	{San Francisco, CA}
 	{March 2017 – Present}
@@ -88,23 +105,12 @@
 		\item {Founded Flagupmail to store personal hand-written keepsakes from classrooms for later retrieval (1-5 years)}
 		\item {Created a prelaunch campaign to organically gain users by with the use referral incentives written in Ruby on Rails}
 	\end{cvitems}}
-	\cventry
-	{Product Manager}
-	{University of Southern California}
-	{Los Angeles, CA}
-	{May 2016 – May 2017}
-	{\begin{cvitems}
-		\item {Led and hired dev team through the development of a Chrome Extension, Android Application and Custom Router PoC}
-		\item {Autonomized feedback loop with Stakeholders (USC Board of Directors) by implementing public Kanban and burndown charts}
-		\item {Successfully developed PoC 35\% under budget by focusing bi-weekly MVP development}
-		\end{cvitems}}
 \end{cventries}
-
-\vspace{-3mm}
+\vspace{-5mm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Internship
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection{Internship Experience}
+\cvsection{Internships}
 \begin{cventries}
 	\cventry
 	{Project Manager}
@@ -135,11 +141,10 @@
 		\item {Decreased time spent finding test equipment by creating an asset tracking system using RFID technology with metrology}
 		\end{cvitems}}
 \end{cventries}
-
+\vspace{-5mm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Education
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{-3mm}
 \cvsection{Education}
 \begin{cventries}
 	\cventry
@@ -155,22 +160,38 @@
 	{Aug 2012 – May 2014}
 	{Awarded Student-Athlete Scholarship (Fall, Spring) for maintaining 3.5 GPA while competing with Water Polo team}
 \end{cventries}
-
-\vspace{-2mm}
+\vspace{-3mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Toolbelt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cvsection{Toolbelt}
+\vspace{-5mm}
 \begin{cventries}
 	\cventry
+	{
+		\def\arraystretch{1.25}{
+			\begin{tabular}{ l l }
+				\cvtoolbelt{Certifications:} & {\skill{  
+					\href{https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2019-01-10&ci=AWS00548749}{\textit{AWS Certified Developer - Associate}}, 
+					\href{https://icagile.com/Agile-Professionals/Find-Agile-Professionals/ctl/UserDetails/mid/938/uid/9afab07b-4d6e-4393-9268-f5f7a19e0966}{\textit{ICAgile Certified Professional}}
+				}} \\
+				\cvtoolbelt{Hardware:} & {\skill{ 
+					FreeRTOS, Raspberry Pi, Arduino, Digital Multimeter, Oscilloscope, PWM, PCB Analysis
+				}} \\ 
+				\cvtoolbelt{Software:} & {\skill{ 
+					Ruby On Rails, Tailwinds CSS, Angular Material, Angular, Cordova, JavaScript, Python, Ruby
+				}} \\
+				\cvtoolbelt{Cloud:} & {\skill{ 
+					AWS IoT, API Gateway, Lambda, DynamoDB, RDS, Lex, AWS Connect, EC2, S3, CodePipeline, CodeBuild
+				}} \\
+			\end{tabular}
+		}
+	}
 	{}
-	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
-		AWS:  & {\skill{ AWS IoT, API Gateway, Lambda, DynamoDB, RDS, Lex, AWS Connect, EC2, S3, CodePipeline, CodeBuild}} \\
-		Software:  & {\skill{ Ruby On Rails, Tailwinds CSS, Angular Material, Angular, Cordova, JavaScript, Python, Ruby}} \\
-		Hardware:  & {\skill{ FreeRTOS, Raspberry Pi, Arduino, Digital Multimeter, Oscilloscope, PWM, PCB Analysis}} \\
-		\end{tabular}}}
 	{}
 	{}
 	{}
 \end{cventries}
 
-\vspace{-7mm}
-\ 
+% \vspace{-27mm}
 \end{document}

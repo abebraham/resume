@@ -1,0 +1,158 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "education": "Education",
+    "skills": "Toolbelt",
+    "awards": "Awards",
+    "work": "Work Experience",
+    "projects": "Projects"
+  },
+  "basics": {
+    "name": "Abraham Gomez",
+    "email": "j.abraham.gomez@gmail.com",
+    "phone": "(562)234-3592",
+    "website": "abebraham.com",
+    "location": {
+      "address": "San Francisco, CA"
+    }
+  },
+  "education": [
+    {
+      "institution": "University of Southern California",
+      "area": "Electrical Engineering (GPA: 3.50)",
+      "studyType": "BS",
+      "startDate": "Aug 2014",
+      "endDate": "May 2017",
+      "location": "Los Angeles, CA",
+      "gpa": "Became the first undergraduate student to lead a software PoC on behalf of the Viterbi School of Engineering Board of Directors (project iPodia)"
+    },
+    {
+      "institution": "Cerritos Community College",
+      "location": "Norwalk, CA",
+      "studyType": "AA",
+      "gpa": "Awarded Student-Athlete Scholarship (Fall, Spring) for maintaining 3.5 GPA while competing with Water Polo team",
+      "startDate": "Aug 2012",
+      "endDate": "May 2014",
+      "area": "Mathematics and Physics (GPA: 3.73)"
+    }
+  ],
+  "work": [
+    {
+      "company": "Accenture LLP",
+      "location": "San Francisco, CA",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "Oct 2017",
+      "endDate": "Present",
+      "highlights": [
+        "Guided Clients through a design thinking sessions to create persona profiles, identifying pain points, and storyboard",
+        "Delivered PoC hybrid mobile application with API callbacks, user graph creation (ChartJS), and Bluetooth enabled device",
+        "Collaborated with engineering team to enable bluetooth connection with third party medical devices with PoC mobile application",
+        "Led push for better DevOps architecture pipeline for internal website using Docker (Docker-Compose) with Jenkins"
+      ]
+    },
+    {
+      "highlights": [
+        "Proposed and led the development of a POC chrome extension and router prototype for Ph.D. Andreas Molisch",
+        "Recruited, hired, and managed a team of 4: 1 software engineer, 2 Android developers, and 1 designer",
+        "Implemented agile development acting as both scrum master and product owner reducing development time by 25%",
+        "Publish undergraduate thesis on caching alternatives and the data mining of video streaming user behavior (https://goo.gl/bftNQR)"
+      ],
+      "endDate": "May 2017",
+      "startDate": "May 2016",
+      "location": "Los Angeles, CA",
+      "position": "Product Manager",
+      "company": "University of Southern California"
+    },
+    {
+      "highlights": [
+        "Proposed and developed a P2P platform using multiple API’s integrations and Slack Messaging application",
+        "Increased classroom participation from 500 monthly messages to 20,000 monthly messages with PoC",
+        "Initiated agile development with weekly testing reducing anticipated development time by 25%"
+      ],
+      "company": "Project iPodia",
+      "position": "Project Manager",
+      "location": "Los Angeles, CA",
+      "startDate": "Oct 2015",
+      "endDate": "Feb 2016"
+    },
+    {
+      "highlights": [
+        "Characterized antenna patterns by SNR, efficiency, power, in 2D and 3D polar plots reducing analysis time by 65%",
+        "Published in-house MatLab RF Analysis tool - saving estimated costs of $1500 per license for DARPA's TBG program"
+      ],
+      "company": "Lockheed Martin",
+      "position": "Space Systems Intern",
+      "location": "King of Prussia, PA",
+      "startDate": "July 2015",
+      "endDate": "Aug 2015"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Ruby On Rails",
+        "Tailwinds CSS",
+        "Angular Material",
+        "Angular 6",
+        "Stripe",
+        "Twilio"
+      ],
+      "name": "Web"
+    },
+    {
+      "keywords": [
+        "AWS IoT",
+        "API Gateway",
+        "Lambda",
+        "DynamoDB, RDS",
+        "Lex",
+        "AWS Connect",
+        "EC2",
+        "S3",
+        "CodePipeline",
+        "CodeBuild"
+      ],
+      "name": "AWS"
+    },
+    {
+      "keywords": [
+        "FreeRTOS",
+        "Raspberry Pi",
+        "Arduino",
+        "Digital Multimeter",
+        "Oscilloscope"
+      ],
+      "name": "Hardware"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Java",
+        "JavaScript"
+      ],
+      "name": "Piper Chat",
+      "description": "A video chat with great picture quality",
+      "url": "https://piperchat.com"
+    }
+  ],
+  "awards": [
+    {
+      "date": "May 2015",
+      "awarder": "HackNY",
+      "title": "Supreme Hacker",
+      "summary": "Recognized as making the best iot project of my own existence."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "projects",
+    "awards",
+    "education",
+    "skills"
+  ]
+}
